@@ -22,12 +22,12 @@
 
     @include for-size(tablet) {
         align-self: flex-start;
-        flex-basis: calc(100% / 2- 15px);
+        flex-basis: 250px;
         margin-top: 20px;
         margin-left: 20px;
     }
     @include for-size(desktop) {
-        flex-basis: calc(100% / 3- 15px);
+        flex-basis: 250px;
     }
 }
 

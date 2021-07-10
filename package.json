@@ -11,15 +11,15 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luxplanjay/webpack-starter-kit.git"
+        "url": "git+https://github.com/VladDeputat/Filmoteka-project"
     },
     "keywords": [],
     "author": "Aleksey Yesin <esinru@gmail.com>",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/luxplanjay/webpack-starter-kit/issues"
+        "url": "https://github.com/VladDeputat/Filmoteka-project/issues"
     },
-    "homepage": "https://lex-od.github.io/project-js-moviedb",
+    "homepage": "https://VladDeputat.github.io/Filmoteka-project",
     "devDependencies": {
         "@babel/core": "^7.11.6",
         "@babel/plugin-proposal-class-properties": "^7.10.4",

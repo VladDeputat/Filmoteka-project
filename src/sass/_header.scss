@@ -14,27 +14,35 @@
     }
     @include for-size(desktop) {
         padding-top: 46px;
-        padding-left: 71px;
+        padding-left: 95px;
         padding-right: 71px;
     }
 }
+
 .navigation {
-    display: flex;
     justify-content: space-between;
+    display: flex;
     align-items: baseline;
     margin-bottom: 27px;
 }
 .logo-link {
-    display: flex;
+    position: relative;
+    display: inline-flex;
     text-decoration: none;
     align-self: baseline;
     align-items: baseline;
 }
-.icon-logo {
+.logo-link::before {
+    position: absolute;
+    top: 4px;
+    left: -35px;
+    content: '';
+    display: block;
     background-image: url('./images/header/filmoteka-icon.svg');
     width: 24px;
     height: 24px;
 }
+
 .title-logo {
     display: none;
     @include for-size(tablet) {
