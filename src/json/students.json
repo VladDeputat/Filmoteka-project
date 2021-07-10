@@ -11,7 +11,7 @@
         "first_name": "Vlad",
         "last_name": "Deputat",
         "avatar": "img-stud-2",
-        "job_title": "Scrammaster. Movies modal window"
+        "job_title": "Scrum-master, Movies modal window"
     },
     {
         "id": 3,
@@ -25,7 +25,7 @@
         "first_name": "Elena",
         "last_name": "Abramova",
         "avatar": "img-stud-4",
-        "job_title": "Content, spiner"
+        "job_title": "Content, Spiner"
     },
     {
         "id": 5,
@@ -39,6 +39,6 @@
         "first_name": "Oleksandr",
         "last_name": "Myrvoda",
         "avatar": "img-stud-6",
-        "job_title": "Local storage, footer modal window"
+        "job_title": "Local storage, Footer modal window"
     }
 ]

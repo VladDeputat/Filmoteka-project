@@ -27,11 +27,17 @@ body.dark-theme {
 
     width: 40px;
     height: 40px;
-    background: url('./images/moon.png');
-    // background: url('./images/apollo.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 25px;
     border-radius: 5px;
     border: none;
+}
+
+.theme-icon.dark-theme {
+    background: url('./images/moon.png');
+}
+
+.theme-icon.light-theme {
+    background: url('./images/sun.png');
 }

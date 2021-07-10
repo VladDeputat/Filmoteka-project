@@ -1,20 +1,19 @@
-<div class="modal-window-students">
-     <button class="close-modal" id="close-modal" type="button"></button>
+<div class='modal-window-students'>
+    <button class='close-modal' id='close-modal' type='button'></button>
 
-    
-    <ul class="students-list-total list">
+    <ul class='students-list-total list'>
         {{#each this}}
-        <li class="students-item" data-source={{id}}>
-            <div class="students-image-wrapper {{avatar}}">   
-                {{!-- <img src="{{avatar}}" alt="{{last_name}}" /> --}}
-            </div>
+            <li class='students-item' data-source={{id}}>
+                <div class='students-image-wrapper {{avatar}}'>
+                    {{!-- <img src="{{avatar}}" alt="{{last_name}}" /> --}}
+                </div>
 
-            <ul class="students-card-content list">
-                <li class="students-title">{{first_name}} {{last_name}}</li>             
-                <li class="students-title">{{job_title}}</li>    
-            </ul>
-        </li>
+                <ul class='students-card-content list'>
+                    <li class='students-title'>{{first_name}} {{last_name}}</li>
+                    <li class='students-subtitle'>{{job_title}}</li>
+                </ul>
+            </li>
         {{/each}}
     </ul>
-    
+
 </div>
